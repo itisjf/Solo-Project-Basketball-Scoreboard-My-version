@@ -1,0 +1,80 @@
+                /* ----------- BODY and .CONTAINER CSS SETTINGS ----------- */
+
+body {
+    margin: 0 auto;
+    width: 90%;
+    
+    font-family: "Sarabun", sans-serif;
+    text-align: center;
+    
+    background-color: #FCBF49;
+
+    max-width: 575px;
+    max-height: 385px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+                /* ----------- TITLES CSS SETTINGS ----------- */
+
+h3 {
+    color: #003049;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    
+    margin: 70px 0px 20px 0px;
+}
+
+                /* ----------- SCORE COUNTERS CSS SETTINGS ----------- */
+
+#home-score-counter, #guest-score-counter {
+    color: #003049;
+    font-size: 90px;
+    
+    background-color: #EAE2B7;
+    width: 155px;
+    height: 120px;
+    border: 2px solid #003049;
+    border-radius: 5px;
+    
+    margin: 0px auto 26px auto;
+}
+
+                /* ----------- SCORE BUTTONS CSS SETTINGS ----------- */
+
+.score-buttons button {
+    color: #003049;
+    font-family: "Sarabun", sans-serif;
+    font-size: 18px;
+    
+    background-color: #FBD076;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #003049;
+    border-radius: 5px;
+    
+    margin-right: 10px;
+}
+
+.score-buttons button:last-child {
+    margin-right: 0px;
+}
+
+                /* ----------- NEW GAME BUTTON CSS SETTINGS ----------- */
+
+#new-game-button {
+    color: #003049;
+    font-family: "Sarabun", sans-serif;
+    font-size: 25px;
+    
+    background-color: #AAD576;
+    border: 2px solid #003049;
+    border-radius: 5px;
+    
+    padding: 10px 20px;
+    margin-top: 40px;
+}
